@@ -22,13 +22,9 @@ jobs:
     - name: Install dependencies
       run: npm install
  
-    - name: Ensure correct permissions for wdio
-      run: chmod +x ./node_modules/.bin/wdio
- 
     - name: Run specific WebdriverIO spec file on BrowserStack
       env:
         BROWSERSTACK_USERNAME: ${{ secrets.BS_USER }}
         BROWSERSTACK_ACCESS_KEY: ${{ secrets.BS_KEY }}
       run: |
         npx wdio run ./wdio.conf.js --spec ./test/specs/**/*.js
-        
