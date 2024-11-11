@@ -1,4 +1,13 @@
 export const config = {
+    // ====================
+    // BrowserStack Config
+    // ====================
+    // user: process.env.BROWSERSTACK_USERNAME,
+    // key: process.env.BROWSERSTACK_ACCESS_KEY,
+    user: 'adreanaz_LBDon6',
+    key: '8nZxe3DoraG4rAJFqBsR',
+    browserstackLocal: true,
+    //
     //
     // ====================
     // Runner Configuration
