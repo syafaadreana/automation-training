@@ -26,6 +26,8 @@ describe('Test Run', () => {
 
         await browser.$(homeScreen.fields.typePromo).setValue("discount");
 
+        await browser.$(homeScreen.buttons.discountType).click();
+
         await browser.$(homeScreen.dropdown.promoTypeDropDown).click();
         await browser.pause(1000);
 
@@ -34,8 +36,13 @@ describe('Test Run', () => {
         
         await browser.$(homeScreen.fields.categoryPromo).setValue("normal");
 
+        await browser.$(homeScreen.buttons.normalCategory).click();
+        await browser.pause(1000);
+
         await browser.$(homeScreen.dropdown.promoCategoryDropDown).click();
         await browser.pause(1000);
+
+        await browser.$(homeScreen.buttons.comboBtn).click();
        
 
 })

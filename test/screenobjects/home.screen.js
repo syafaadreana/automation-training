@@ -15,6 +15,8 @@ module.exports = {
     promotionBtn: "/html/body/div[2]/div[1]/div/div[2]/nav/ul/li[18]/a/span[2]",
     createpromo: "/html/body/div[2]/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div[1]/div/div/div/ul[2]/li/a",
     comboBtn: "/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div/div/div/div/div[3]/a",
+    discountType: "/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[2]/div/div[3]/ul/li[1]/span",
+    normalCategory: "/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[3]/div/div[3]/ul/li[1]/span",
 
   },
   fields: {
