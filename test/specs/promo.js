@@ -28,22 +28,53 @@ describe('Test Run', () => {
 
         await browser.$(homeScreen.buttons.discountType).click();
 
-        await browser.$(homeScreen.dropdown.promoTypeDropDown).click();
-        await browser.pause(1000);
-
         await browser.$(homeScreen.dropdown.promoCategoryDropDown).click();
         await browser.pause(1000);
         
-        await browser.$(homeScreen.fields.categoryPromo).setValue("normal");
+        //await browser.$(homeScreen.fields.categoryPromo).setValue("normal");
 
         await browser.$(homeScreen.buttons.normalCategory).click();
         await browser.pause(1000);
 
-        await browser.$(homeScreen.dropdown.promoCategoryDropDown).click();
+        await browser.$(homeScreen.buttons.comboBtn).click();
+
+        await browser.$(homeScreen.fields.comboNameField).setValue("Sandwiches & Ice Coffee");
         await browser.pause(1000);
 
-        await browser.$(homeScreen.buttons.comboBtn).click();
+        await browser.$(homeScreen.fields.finalprice).setValue("10");
+        await browser.pause(1000);
+
+        await browser.$(homeScreen.fields.foodName).setValue("Sandwiches");
+        await browser.pause(1000);
+
+        await browser.$(homeScreen.fields.minQty).setValue("2");
+        await browser.pause(1000);
+
+        await browser.$(homeScreen.fields.maxQty).setValue("10");
+        await browser.pause(1000);
+
+        await browser.$(homeScreen.dropdown.productChoiceDropDown).click();
+        await browser.pause(1000);
+
+        await browser.$(homeScreen.buttons.productChoiceBtn).click();
+        await browser.pause(1000);
        
+        await browser.$(homeScreen.fields.drinkName).setValue("Ice Coffee");
+        await browser.pause(1000);
+
+        await browser.$(homeScreen.fields.drinkMinQty).setValue("2");
+        await browser.pause(1000);
+
+        await browser.$(homeScreen.fields.drinkMaxQty).setValue("10");
+        await browser.pause(1000);
+
+        await browser.$(homeScreen.dropdown.drinkChoiceDropDown).click();
+        await browser.pause(1000);
+
+        await browser.$(homeScreen.buttons.drinkChoiceBtn).click();
+        await browser.pause(1000);
+
+        await browser.$(homeScreen.buttons.setupBtn).click();
 
 })
 

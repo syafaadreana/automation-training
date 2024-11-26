@@ -17,6 +17,11 @@ module.exports = {
     comboBtn: "/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div/div/div/div/div[3]/a",
     discountType: "/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[2]/div/div[3]/ul/li[1]/span",
     normalCategory: "/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[3]/div/div[3]/ul/li[1]/span",
+    productChoiceBtn: "/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div/div/div/div[2]/div[3]/div[1]/div[2]/div[4]/div/div/div[3]/ul/li[135]/span",
+    drinkChoiceBtn: "/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div/div/div/div[2]/div[3]/div[2]/div[2]/div[4]/div/div/div[3]/ul/li[135]/span",
+    setupBtn: "/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div/div/div/div[3]/button[2]",
+    
+
 
   },
   fields: {
@@ -30,6 +35,14 @@ module.exports = {
     typePromo: '/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[2]/div/div[2]/input',
     categoryPromo: '/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[3]/div/div[2]',
     comboNameField: '/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div/div/div/div[2]/div[1]/input',
+    finalprice: '/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div/div/div/div[2]/div[2]/input',
+    foodName: '/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div/div/div/div[2]/div[3]/div[1]/div[2]/div[1]/div/input',
+    minQty: '/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div/div/div/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/div/input',
+    maxQty: '/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div/div/div/div[2]/div[3]/div[1]/div[2]/div[2]/div[2]/div/input',
+    drinkName: '/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div/div/div/div[2]/div[3]/div[2]/div[2]/div[1]/div/input',
+    drinkMinQty: '/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div/div/div/div[2]/div[3]/div[2]/div[2]/div[2]/div[1]/div/input',
+    drinkMaxQty:'/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div/div/div/div[2]/div[3]/div[2]/div[2]/div[2]/div[2]/div/input',
+
   },
 
 
@@ -47,6 +60,8 @@ module.exports = {
   dropdown: {
     promoTypeDropDown: '//*[@id="view"]/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[2]/div/div[1]',
     promoCategoryDropDown: '/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[1]/div[1]/div[2]/div[3]/div/div[1]',
+    productChoiceDropDown: "/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div/div/div/div[2]/div[3]/div[1]/div[2]/div[4]/div/div/div[1]",
+    drinkChoiceDropDown: '/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div/div/div/div[2]/div[3]/div[2]/div[2]/div[4]/div/div/div[1]',
   }
     
 };
