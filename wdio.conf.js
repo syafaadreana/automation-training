@@ -32,7 +32,9 @@ exports.config = {
     specs: [
         // ToDo: define location for spec files here
         //'./test/specs/**/*.js'
-        './test/specs/promo.js'
+        //'./test/specs/promo.js'
+        //'./test/specs/createNewStaff.js'
+        './test/specs/inventory.js'
     ],
     // Patterns to exclude.
     exclude: [
